@@ -31,6 +31,9 @@ const TodoItem = ({}) => {
   const handleCheckOff = () => {};
 
   //Need a function to delete the task from the todo list
+  //Keep in mind that this function needs to access and modify
+  //the state of the App component. Is there a way to access these
+  //values inside of TodoItem?
   const handleDelete = () => {};
 
   return (
